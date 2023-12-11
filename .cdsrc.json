@@ -1,5 +1,11 @@
 {
 	"sql": {
 		"dialect": "plain"
+	},
+	"requires": {
+		"[production]": {
+			"db": "hana",
+			"auth": "xsuaa"
+		}
 	}
 }
